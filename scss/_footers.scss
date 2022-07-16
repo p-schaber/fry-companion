@@ -1,0 +1,13 @@
+/* Footer */
+footer {
+    align-items: center;
+    border-top: 2px solid $light-slate-gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 15px;
+
+    & .sponsor {
+        height: 40px;
+    }
+}

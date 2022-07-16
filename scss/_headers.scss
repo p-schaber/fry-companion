@@ -1,0 +1,36 @@
+/* Header */
+.header {
+    background-image: url(../..//assets/img/Pommes_VI_\(20006982466\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 65vh;
+
+    & h1 {
+        padding-right: 25px;
+    }
+
+    &.crinkle-cut {
+        background-image: url(../../assets/img/Pommes_VI_\(20006982466\).jpg);
+    }
+
+    &.curly {
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/30/Fast_food_01_ebru.jpg);
+    }
+
+    &.sweet-potato {
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Sweet_Potato_Fries.jpg/1280px-Sweet_Potato_Fries.jpg);
+    }
+
+    &.waffle {
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/ChickFilA-Fries.jpg/1920px-ChickFilA-Fries.jpg);
+    }
+
+    .header-nav {
+        align-items: center;
+        background-color: $blue-berry;
+        color: $honey-yellow;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+}
